@@ -1,0 +1,80 @@
+.header {
+    background-color: #FFDDE2;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    font-size: 13px;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 25px;
+}
+
+.imagemlogo {
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.campos {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    width: 100%;
+    gap: 10px;
+    justify-content: right;
+    padding: 30px;
+    
+}
+.login{
+    background-color: #B34361;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 10%;
+    height: 30px;
+    border: none;
+    align-self: center;
+}
+.cadastrar {
+    color: #B34361;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 10%;
+    height: 30px;
+    border: none;
+    align-self: center;
+}
+
+.header2{
+    background-color: #FFDDE2;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.botao-nossaequipe{
+    color: #B34361;
+    width: 70%;
+    height: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao{
+    color: #B34361;
+    width: 70%;
+    height: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.caixa-header2{
+    width: 100%;
+    height: 50%;
+}
