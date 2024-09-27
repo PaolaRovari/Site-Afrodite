@@ -110,3 +110,26 @@ input {
     text-decoration: none;
     color: black !important;
 }
+.dividida .padrao {
+    text-decoration: none;
+    color: #B34361!important;
+}
+
+.dividida .padrao:hover {
+    text-decoration: none;
+    color: #B34361!important;
+}
+
+.dividida .black {
+    text-decoration: none;
+    color: black !important;
+}
+
+.dividida .black:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+.centro {
+    justify-content: center !important;
+}
