@@ -66,3 +66,18 @@ input{
 .teste{
     display: flex;
 }
+.dividida {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+}
+.dividida a {
+    text-decoration: none;
+    color: black !important;
+}
+.padrao a{
+    font-weight: 300;
+}

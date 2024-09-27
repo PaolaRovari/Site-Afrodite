@@ -10,7 +10,7 @@
     color: white;
 }
 
-.formlogin {
+.form {
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -20,7 +20,7 @@
     gap: 20px;
 }
 
-.camposlogin {
+.campos {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -40,7 +40,7 @@ input {
     background-color: #F4E7EB;
 }
 
-.login{
+.login {
     background-color: #B34361;
     color: white;
     border-radius: 5px;
@@ -49,6 +49,17 @@ input {
     border: none;
     align-self: center;
     text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .sublinhado {
@@ -66,7 +77,7 @@ input {
     height: 150px
 }
 
-.logoescrita {
+.logo {
     width: 220px;
     height: 140px;
     margin-left: 42.4%;
@@ -98,4 +109,39 @@ input {
 .dividida a {
     text-decoration: none;
     color: black !important;
+}
+.dividida .padrao {
+    text-decoration: none;
+    color: #B34361!important;
+}
+
+.dividida .padrao:hover {
+    text-decoration: none;
+    color: #B34361!important;
+}
+
+.dividida .black {
+    text-decoration: none;
+    color: black !important;
+}
+
+.dividida .black:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+.centro {
+    justify-content: center !important;
+}
+
+.sexo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.sexo label,
+.sexo input {
+    margin: 0 !important;
 }
