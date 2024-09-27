@@ -1,0 +1,68 @@
+.boxtexto{
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.campos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+}
+label{
+    font-size: 15px;
+}
+input{
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #F4E7EB;
+}
+.cadastrar{
+    background-color: #eaeaea;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    align-self: center;
+    background-color: #B34361;
+    margin-bottom: 50px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.header-top{
+    background-color: #F4E7EB;
+    width: 100%;
+    height: 150px
+}
+.logo{
+    width: 230px;
+    height: 180px;
+    margin-left: 42.4%;
+    object-fit: cover;
+    justify-content: center;
+    margin-top: -10px;
+}
+.nominhos {
+    color: black;
+}
+.teste{
+    display: flex;
+}
