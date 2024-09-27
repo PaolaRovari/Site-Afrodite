@@ -1,4 +1,4 @@
-html, nav, div, a, body, img {
+html, nav, div, body, img {
     margin: 0 auto;
     font-family: "Poppins"
 }
@@ -19,6 +19,8 @@ html, nav, div, a, body, img {
 }
 .boxpequena1 {
     width: 30%;
+    display: flex;
+    justify-content: center;
 }
 .boxpequena2 {
     width: 70%;
@@ -87,4 +89,5 @@ html, nav, div, a, body, img {
 .modelo2 {
     width: 100%;
     padding-left: 15px;
+    padding-bottom: 25px;
 }

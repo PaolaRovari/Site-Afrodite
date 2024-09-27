@@ -4,9 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/rodape.css">
     <link rel="stylesheet" href="assets/conhecanutri.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/61da37bda4.js" crossorigin="anonymous"></script>   
     <title>Afrodite</title>
 </head>
 
@@ -14,11 +20,11 @@
 <body>
     <div class="header">
         <div class="logo">
-            <img src="assets/logoconcha-header.png" class="imagemlogo" />
+            <a href="home.html"> <img src="assets/logoconcha-header.png"  class="imagemlogo"></a>
         </div>
-        <div class="campos">
-            <button class="login" onclick="Login( this )">LOGIN</button>
-            <button class="cadastrar" onclick="Cadastrar( this )">CADASTRAR</button>
+        <div class="camposhome">
+            <a href="login.html"><button class="loginhome" onclick="Login( this )">LOGIN</button></a>
+            <a href="cadastro.html"><button class="cadastrarhome" onclick="Cadastrar( this )">CADASTRAR</button></a>
         </div>
     </div>
 
@@ -26,9 +32,9 @@
         <div class="caixa-header2">
             <a href="nossaequipe.html" style="text-decoration: none;"><span class="botao-nossaequipe">NOSSA
                     EQUIPE</span></a>
-            <a href="estetica.html" style="text-decoration: none;"><span class="botao">ESTÉTICA</span></a>
-            <a href="odontologia.html" style="text-decoration: none;"><span class="botao">ODONTOLOGIA</span></a>
-            <a href="nutricao.html" style="text-decoration: none;"><span class="botao">NUTRIÇÃO</span></a>
+            <a href="conhecaestetica.html" style="text-decoration: none;"><span class="botao">ESTÉTICA</span></a>
+            <a href="conhecaodonto.html" style="text-decoration: none;"><span class="botao">ODONTOLOGIA</span></a>
+            <a href="conhecanutri.html" style="text-decoration: none;"><span class="botao">NUTRIÇÃO</span></a>
         </div>
     </div>
 
@@ -114,7 +120,60 @@
         </section>
     </section>
 
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+               
+                <span class="textrodape">Assine nosso clube para receber uma das Concha de Afrodite</span>
+                <div class="footer-col">
+                    <ul>
+                        <span class="textospan">Ajuda</span>
+                        <li><a href="">Nossa Equipe</a></li>
+                        <li><a href="home.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <ul>
+                        <span class="textospan">Sobre Nós</span>
+                        <li><a href="conhecaestetica.html">Área de Estética</a></li>
+                        <li><a href="conhecaodonto.html">Área de Odontologia</a></li>
+                        <li><a href="conhecanutri.html">Área de Nutrição</a></li>
+                    </ul>
+                </div>
+                
+                
+                
+                <div class="footer-col">
 
+                    <span class="textospan">Redes Sociais</span>
+                    <div class="medias-socias">
+                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                        <a href="#"> <i class="fa fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                    </div>
+                    <span>afroditelifecare@gmail.com</span>
+                </div>
+                <hr class="linharodape">
+                <div class="privacidade">
+                    <div>
+                        <span>Brasil</span>
+                    </div>
+                    <div>
+                        <span>Política de Privacidade</span>
+                    </div>
+                    <div>
+                        <span>Termos de Uso</span>
+                    </div>
+                    <div>
+                        <span>© 2024. Todos os direitos reservados. Afrodite - Lifecare
+                            - CNPJ: 00.000.000/0000-00</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
     
     
 </body>
