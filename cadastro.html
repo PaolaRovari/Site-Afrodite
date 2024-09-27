@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="assets/header.css">
     <link rel="stylesheet" href="assets/login.css">
     <link rel="stylesheet" href="assets/style.css">
@@ -35,8 +35,13 @@
                 <input type="date" id="InputDataNascimento">
             </div>
             <div class="campos">
-                <label class="nominhos" for="InputSexo">Sexo:</label> <form> <label style="margin-right: 10px;"><input type="radio" id="female" name="gender" value="female" >  Feminino  
-                </label> <label><input type="radio"  id="male" name="gender" value="male">  Masculino  </label> </form>
+                <label class="nominhos" for="InputSexo">Sexo:</label>
+                <form class="sexo">
+                    <input type="radio" id="female" name="gender" value="female" >
+                    <label style="margin-right: 10px;">Feminino</label>
+                    <input type="radio"  id="male" name="gender" value="male">
+                    <label>Masculino</label>
+                </form>
             </div>
             <div class="campos">
                 <label class="nominhos" for="InputEmail">Email:</label>
@@ -63,10 +68,14 @@
             <div class="login">
                 <a href="login.html" class="login">CADASTRAR</a>
             </div>
-            <div class="dividida centro">
-                <a class="padrao" href="login.html">LOGIN</a>
+            <div class="dividida">
+                <div class="black" href="login.html">Já tem uma conta?</div>
+                <a class="padrao" href="login.html">FAÇA LOGIN</a>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
     </div>      
 </body>
 </html>

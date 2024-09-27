@@ -133,3 +133,15 @@ input {
 .centro {
     justify-content: center !important;
 }
+
+.sexo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.sexo label,
+.sexo input {
+    margin: 0 !important;
+}

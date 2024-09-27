@@ -78,3 +78,6 @@ input{
     text-decoration: none;
     color: black !important;
 }
+.padrao a{
+    font-weight: 300;
+}
