@@ -1,5 +1,6 @@
 html, nav, div, a, body {
     margin: 0;
+    font-family: 'Poppins';
 }
 .logoescrita {
     text-align: center;
@@ -145,11 +146,6 @@ button {
 
 }
 
-button:hover {
-    background-color: #B34361;
-    color: white;
-    transition: 0.7s;
-}
 .caixaloguinho{
     width: 50%;
 }
@@ -183,6 +179,7 @@ button:hover {
     height: 25px;
     margin-top: 5px;
 }
+
 
 
 

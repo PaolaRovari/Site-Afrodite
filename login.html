@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/login.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/61da37bda4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <header class="header-top">
+            <div class="header-logo">
+                 <img  class="logoescrita" src="assets/logoconchaescrita.png" alt="">
+            </div>
+        </header>
+    </main>
+
+    <div class="tudo">
+        <div class="boxtexto">
+            <h2 class="titulo">Login</h2>
+        </div>
+
+        
+        <div class="formlogin">
+            <div class="camposlogin">
+                <label for="InputEmail">Email:</label>
+                <input type="e-mail" id="InputEmail" >
+            </div>
+
+            <div class="camposlogin">
+                <label for="InputSenha">Senha:</label>
+                <input type="senha" id="InputSenha" >
+                <div class="esqueceusenha"><a>Esqueceu sua senha? </a></div>
+            </div>
+        </div>
+        <div class="camposlogin">
+            <div class="login"><button class="login" onclick="Login( this )">LOGIN</button></div>
+            <div class="dividida">
+                <a>Não tem cadastro?</a>
+                <a style="color: #B34361!important;">CADASTRAR</a>
+            </div>
+            
+        </div>
+    </div>        
+</body>
+</html>

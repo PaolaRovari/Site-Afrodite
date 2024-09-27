@@ -1,0 +1,101 @@
+.boxtexto {
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.formlogin {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.camposlogin {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+label {
+    font-size: 15px;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #F4E7EB;
+}
+
+.login{
+    background-color: #B34361;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    align-self: center;
+    text-align: center;
+}
+
+.sublinhado {
+    font-size: medium;
+}
+
+.sublinhado2 {
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header-top {
+    background-color: #F4E7EB;
+    width: 100%;
+    height: 150px
+}
+
+.logoescrita {
+    width: 220px;
+    height: 140px;
+    margin-left: 42.4%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.esqueceusenha {
+    justify-content: right;
+    flex-direction: row;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.esqueceusenha a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.dividida {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+}
+.dividida a {
+    text-decoration: none;
+    color: black !important;
+}
