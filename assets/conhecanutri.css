@@ -1,0 +1,95 @@
+html, nav, div, a, body, img {
+    margin: 0 auto;
+    font-family: "Poppins"
+    
+}
+.bannercaixa{
+    width: 100%;
+}
+.banner {
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.box1 {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.boxpequena1 {
+    width: 30%;
+}
+.boxpequena2 {
+    width: 70%;
+}
+.box2 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F8F1F3;
+}
+.boxpequena3 {
+    width: 70%;
+    margin-top: 30px;
+}
+.boxpequena4 {
+    width: 30%;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.titulo1 {
+    font-size: 20px;
+    color: #B34361;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo2 {
+    font-size: 20px;
+    color: #B34361;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 80px;
+}
+.titulo3 {
+    font-size: 20px;
+    color: #B34361;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.texto1 {
+    font-size: 16px;
+    color: black;
+    padding-right: 60px;
+}
+.texto2 {
+    font-size: 16px;
+    color: black;
+    padding-left: 80px;
+}
+.texto3 {
+    font-size: 16px;
+    color: black;
+    padding-left: 40px;
+    text-align: center;
+}
+.modelocaixa {
+    width: 65%;
+}
+.modelo {
+    width: 100%;
+}
+.modelo2 {
+    width: 100%;
+    padding-left: 15px;
+}
+
+
+
+
