@@ -1,3 +1,7 @@
+html, nav, div, a, body {
+    margin: 0;
+    font-family: 'Poppins';
+}
 .boxtexto{
     font-size: 30px;
     text-align: center;
