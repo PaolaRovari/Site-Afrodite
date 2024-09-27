@@ -34,20 +34,19 @@
     font-weight: bold;
     border-radius: 5px;
     width: 10%;
-    height: 30px;
+    height: 35px;
     border: none;
     align-self: center;
 }
 .cadastrar {
-    color: #B34361;
+    color: white;
     border-radius: 5px;
     font-weight: bold;
     width: 10%;
-    height: 30px;
+    height: 35px;
     border: none;
     align-self: center;
 }
-
 .header2{
     background-color: #FFDDE2;
     width: 100%;
