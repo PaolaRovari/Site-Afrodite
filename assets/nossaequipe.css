@@ -1,5 +1,6 @@
-html, nav, div, a, body {
+html, nav, div, body {
     margin: 0;
+    font-family: "Poppins"
 }
 .boxinha1 {
     width: 100%;
@@ -33,12 +34,15 @@ html, nav, div, a, body {
 }
 .textinho {
     font-size: 16px;
+    display: block;
+    padding: 10px;
 }
 .sobrenos{
     margin-top: 10px;
     font-weight: bold;
     color: #B34361;
     font-size: 20px;
+    padding: 10px;
 }
 .rosinha  {
     background-color: #B34361;
@@ -57,12 +61,12 @@ html, nav, div, a, body {
     font-size: 20px;
 }
 .rosinha {
-    padding-top:40px ;
+    padding-top: 17px ;
 }
 .caixaroseo {
     background-color: #F4E7EB;
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
