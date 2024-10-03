@@ -96,7 +96,7 @@ function Logar(event) {
         }
     }
     if (existe) {
-        window.location.href = "../Afrodite/home.html";
+        window.location.href = "../Site-Afrodite/home.html";
         document.getElementById("alerta").getElementsByTagName('span')[0].innerHTML = "Seja bem vindo" + " " + nome;
         document.getElementById("alerta").style.display = "block";
         setTimeout(function () {
