@@ -29,6 +29,7 @@ html, nav, div, a, body {
     flex-direction: column;
     width: 100%;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 label {
@@ -53,7 +54,6 @@ input {
     border: none;
     align-self: center;
     text-align: center;
-    line-height: 40px;
     text-decoration: none;
 }
 
@@ -139,14 +139,17 @@ input {
     justify-content: center !important;
 }
 
-.sexo {
+.campos .bolas {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
-.sexo label,
-.sexo input {
+.bolas label {
+    margin: 0 !important;
+}
+input[type=radio] {
+    width: 15px;
+    height: 30px;
     margin: 0 !important;
 }

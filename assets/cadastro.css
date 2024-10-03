@@ -27,6 +27,7 @@ html, nav, div, a, body {
     flex-direction: column;
     width: 100%;
     gap: 3px;
+    margin-bottom: 20px;
 }
 label{
     font-size: 15px;
@@ -66,6 +67,7 @@ input{
 }
 .nominhos {
     color: black;
+    font-size: 25px;
 }
 .teste{
     display: flex;
@@ -85,3 +87,4 @@ input{
 .padrao a{
     font-weight: 300;
 }
+

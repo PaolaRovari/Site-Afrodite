@@ -18,7 +18,7 @@
 <body>
     <div class="header">
         <div class="logo">
-            <a href="home.html"> <img src="assets/logoconcha-header.png"  class="imagemlogo"></a>
+            <a href="home.html"> <img src="assets/logoconcha-header.png" class="imagemlogo"></a>
         </div>
         <div class="camposhome">
             <a href="login.html"><button class="loginhome" onclick="Login( this )">LOGIN</button></a>
@@ -79,13 +79,10 @@
     </div>
 
     <section class="bloco">
-        <div class="box">
+        <div class="box-img-geral">
             <div class="box-img">
                 <img class="imagem" src="assets/SAIBA MAIS - ESTÉTICA.png" alt="">
                 <a href="conhecaestetica.html" class="link">Saiba mais</a>
-                <div class="textosaibamais">
-                    <p>Estética e Cosmética</p>
-                </div>
             </div>
             <div class="box-img">
                 <img class="imagem" src="assets/SAIBA MAIS - NUTRIÇÃO.png" alt="">
@@ -95,33 +92,43 @@
                 <img class="imagem" src="assets/SAIBA MAIS - ODONTO.png" alt="">
                 <a href="conhecaodonto.html" class="link">Saiba mais</a>
             </div>
-        </div>
+        </div>        
     </section>
-
+    <div class="box-txt-geral">
+        <div class="textosaibamais">
+            <p>Estética e Cosmética</p>
+        </div>
+        <div class="textosaibamais">
+            <p>Nutrição Geral</p>
+        </div>
+        <div class="textosaibamais">
+            <p>Odontologia Geral</p>
+        </div>
+    </div>
 
     <div class="caixa-externa">
         <div class="caixa-interna">
             <div>
                 <span class="textmensagem">Enviar mensagem</span>
             </div>
-                <div class="camposmsg">
-                    <input class="input" type="nome" id="InputNome" placeholder="Nome:" >
-            
-                    <input class="input" type="e-mail" id="InputEmail" placeholder="E-mail:">
-                
-                    <input  class="input" type="text" id="InputTelefone" placeholder="Telefone:">
-               
-                    <input class="input-mensagem" type="text" id="InputMensagem" placeholder="Mensagem:">
-            
-                    <div class="flex">
-                        <button class="enviar" onclick="Enviar( this )">Enviar</button>
+            <div class="camposmsg">
+                <input class="input" type="nome" id="InputNome" placeholder="Nome:">
 
-                        <div class="caixaloguinho">
-                            <img class="loguinho" src="assets/logoescrita.png">
-                        </div>
+                <input class="input" type="e-mail" id="InputEmail" placeholder="E-mail:">
+
+                <input class="input" type="text" id="InputTelefone" placeholder="Telefone:">
+
+                <input class="input-mensagem" type="text" id="InputMensagem" placeholder="Mensagem:">
+
+                <div class="flex">
+                    <button class="enviar" onclick="Enviar( this )">Enviar</button>
+
+                    <div class="caixaloguinho">
+                        <img class="loguinho" src="assets/logoescrita.png">
                     </div>
-                    
                 </div>
+
+            </div>
         </div>
         <div class="box-contato">
             <div class="box-icones">
@@ -129,17 +136,17 @@
 
                     <span class="textomensagem">Contato</span>
                     <span class="text">Escolha a melhor forma e entre em contato</span>
-                    <img class="icone"src="assets/sms (1).png" alt="">
+                    <img class="icone" src="assets/sms (1).png" alt="">
                     <p class="texto-icone"> WhatsApp: 11 5461-7946</p>
                 </div>
 
                 <div class="flex2">
-                    <img class="icone"src="assets/mapas-e-bandeiras.png" alt="">
+                    <img class="icone" src="assets/mapas-e-bandeiras.png" alt="">
                     <p class="texto-icone">Av. Brigadeiro Faria Lima, 280. São Paulo - SP</p>
                     <p class="texto-icone">CEP: 01451-001</p>
                 </div>
                 <div class="flex2">
-                    <img class="icone"src="assets/o-email.png" alt="">
+                    <img class="icone" src="assets/o-email.png" alt="">
                     <p class="texto-icone">afroditelifecare@gmail.com</p>
                 </div>
             </div>
@@ -149,7 +156,7 @@
     <footer>
         <div class="container-footer">
             <div class="row-footer">
-               
+
                 <span class="textrodape">Assine nosso clube para receber uma das Concha de Afrodite</span>
                 <div class="footer-col">
                     <ul>
@@ -158,7 +165,7 @@
                         <li><a href="home.html">Fale Conosco</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
                     <ul>
                         <span class="textospan">Sobre Nós</span>
@@ -167,9 +174,9 @@
                         <li><a href="conhecanutri.html">Área de Nutrição</a></li>
                     </ul>
                 </div>
-                
-                
-                
+
+
+
                 <div class="footer-col">
 
                     <span class="textospan">Redes Sociais</span>
@@ -196,11 +203,11 @@
                             - CNPJ: 00.000.000/0000-00</span>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </footer>
-    
+
 
 </body>
 

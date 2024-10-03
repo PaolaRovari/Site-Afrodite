@@ -100,3 +100,23 @@ footer{
     gap: 190px;
     font-size: 12px;
 }
+
+@keyframes entrada {
+    from { right: -500px; }
+    to { right: 15px; }
+}
+
+.alerta{
+    display: none;
+    width: 300px;
+    background-color: #B34361;
+    padding: 14px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 3px;
+    color: white;
+    animation-name: entrada;
+    animation-duration: 2s;
+    border-radius: 10px;
+}

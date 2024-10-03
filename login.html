@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Login</title>
     <link rel="stylesheet" href="assets/header.css">
     <link rel="stylesheet" href="assets/cadastro.css">
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/rodape.css">
     <link rel="stylesheet" href="assets/login.css">
@@ -21,7 +20,7 @@
     <main>
         <header class="header-top">
             <div class="header-logo">
-                 <img  class="logo" src="assets/logoconchaescrita.png" alt="">
+                <img class="logo" src="assets/logoconchaescrita.png" alt="">
             </div>
         </header>
     </main>
@@ -31,27 +30,35 @@
             <h2 class="titulo">Login</h2>
         </div>
 
-        
-        <div class="form">
-            <div class="campos">
-                <label for="InputEmail">Email:</label>
-                <input type="e-mail" id="InputEmail" >
-            </div>
+        <form action="#" id="form-login">
+            <div class="form">
+                <div class="campos">
+                    <label for="InputEmail">Email:</label>
+                    <input type="e-mail" id="InputEmail">
+                </div>
 
+                <div class="campos">
+                    <label for="InputSenha">Senha:</label>
+                    <input type="password"  id="InputSenha" >
+                    <div class="esqueceusenha"><a>Esqueceu sua senha? </a></div>
+                </div>
+            </div>
             <div class="campos">
-                <label for="InputSenha">Senha:</label>
-                <input type="senha" id="InputSenha" >
-                <div class="esqueceusenha"><a>Esqueceu sua senha? </a></div>
+                <div class="login">
+                    <input type="submit" onclick="Logar(event)" class="login" value="Login" />
+                </div>
+                <div class="dividida">
+                    <a class="black">Não tem cadastro?</a>
+                    <a href="cadastro.html" class="padrao">CADASTRAR</a>
+                </div>
+
             </div>
-        </div>
-        <div class="campos">
-            <div class="login"><a  href="home.html" class="login">LOGIN</a></div>
-            <div class="dividida">
-                <a class="black">Não tem cadastro?</a>
-                <a href="cadastro.html" class="padrao">CADASTRAR</a>
-            </div>
-            
-        </div>
-    </div>        
+        </form>
+    </div>
+    <div id="alerta" class="alerta">
+        <span></span>
+    </div>
+    <script src="assets/main.js"></script>
 </body>
+
 </html>

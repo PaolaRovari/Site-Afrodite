@@ -32,6 +32,7 @@ html, nav, div, body, img {
     flex-direction: row;
     justify-content: center;
     background-color: #F8F1F3;
+    padding-bottom: 35px;
 }
 .boxpequena3 {
     width: 70%;
@@ -84,12 +85,14 @@ html, nav, div, body, img {
 }
 .modelocaixa {
     width: 65%;
+    height: 420px;
+}
+.modelocaixa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 .modelo {
     width: 100%;
-}
-.modelo2 {
-    width: 100%;
-    padding-left: 15px;
-    padding-bottom: 25px;
 }
